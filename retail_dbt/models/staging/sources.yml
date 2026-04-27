@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RETAIL_DB
+    schema: RAW
+    tables:
+      - name: internal_orders
+      - name: dim_exchange_rates
+      - name: dim_products

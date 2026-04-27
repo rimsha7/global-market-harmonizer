@@ -1,0 +1,20 @@
+[
+    {
+        "date": "2026-04-20",
+        "base_currency": "EUR",
+        "target_currency": "USD",
+        "exchange_rate": 1.176
+    },
+    {
+        "date": "2026-04-20",
+        "base_currency": "GBP",
+        "target_currency": "USD",
+        "exchange_rate": 1.176
+    },
+    {
+        "date": "2026-04-20",
+        "base_currency": "JPY",
+        "target_currency": "USD",
+        "exchange_rate": 1.176
+    }
+]

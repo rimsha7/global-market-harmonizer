@@ -1,0 +1,91 @@
+# =========================
+# ENV & SECRETS
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+logs/
+airflow/logs/
+
+# =========================
+# JUPYTER / NOTEBOOKS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS CODE / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# AIRFLOW
+# =========================
+airflow/airflow.db
+airflow/unittests.cfg
+
+# =========================
+# DBT
+# =========================
+dbt_packages/
+target/
+logs/
+
+# =========================
+# NODE (if any)
+# =========================
+node_modules/
+
+# =========================
+# POWER BI
+# =========================
+# Keep your .pbix file (DO NOT ignore it)
+# But ignore autosave temp files
+*.pbix.lock
+*.tmp
+
+# =========================
+# DATA FILES (OPTIONAL)
+# =========================
+# Uncomment if you don’t want to push raw data
+# data/
+# *.csv
+# *.json
+
+# =========================
+# DOCKER
+# =========================
+*.tar
+*.gz
+
+# =========================
+# AWS / CREDENTIALS
+# =========================
+.aws/
