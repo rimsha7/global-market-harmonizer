@@ -65,7 +65,7 @@ APIs → S3 → Airflow → Databricks → Snowflake → dbt → Power BI
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard](screenshots/report.png)
+![Dashboard](Screenshots/report.png)
 
 ---
 
