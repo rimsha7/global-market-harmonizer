@@ -65,7 +65,7 @@ APIs → S3 → Airflow → Databricks → Snowflake → dbt → Power BI
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/report.png)
 
 ---
 
@@ -196,8 +196,8 @@ SELECT COUNT(*) FROM analytics.fact_orders;
 
 * Azure Purview used for:
 
-  * - Data lineage tracking
-  * - Sensitive data classification
+  - Data lineage tracking
+  - Sensitive data classification
 
 ---
 
